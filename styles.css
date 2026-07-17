@@ -169,6 +169,19 @@ h1 span {
   color: var(--muted);
 }
 
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -348,8 +361,13 @@ footer {
   .about-grid,
   .skills-grid,
   .project-card.large,
-  .contact-grid {
+  .contact-grid,
+  .resume-content {
     grid-template-columns: 1fr;
+  }
+
+  .resume-content {
+    display: grid;
   }
 
   .nav-toggle,
