@@ -1,0 +1,24 @@
+Myadaraveni Raju
+Automation Test Engineer
+
+Summary
+- Passionate about software quality, automation, and efficient testing workflows.
+- Skilled in Playwright, TypeScript, Manual Testing, SQL, Postman, Git, GitHub, and Jira.
+- Experienced in regression, smoke, sanity, functional, and API testing.
+
+Skills
+Playwright, TypeScript, Manual Testing, Regression Testing, Smoke Testing, Sanity Testing,
+Functional Testing, API Testing, SQL, Git, GitHub, Jira, Agile Scrum, SDLC, STLC
+
+Projects
+OrangeHRM Automation Framework
+- Built automated test coverage for login, employee management, leave, and admin modules.
+- Implemented HTML reports, screenshots on failure, and smoke/regression suites.
+
+Education
+B.Tech (ECE) - 2024
+
+Contact
+Email: myadaraveniraju9@gmail.com
+Phone: 6301315812
+Location: Karimnagar, Telangana

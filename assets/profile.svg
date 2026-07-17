@@ -1,0 +1,10 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="36" fill="#e8f1ff"/>
+  <circle cx="320" cy="250" r="130" fill="#2563eb" opacity="0.95"/>
+  <circle cx="320" cy="235" r="94" fill="#f6d7b0"/>
+  <path d="M195 540c20-110 120-160 125-160s105 50 125 160" fill="#1d4ed8"/>
+  <circle cx="280" cy="235" r="8" fill="#1f2937"/>
+  <circle cx="360" cy="235" r="8" fill="#1f2937"/>
+  <path d="M285 290c18 20 52 20 70 0" stroke="#8b5e3c" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="320" y="585" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#0f172a">Myadaraveni Raju</text>
+</svg>
