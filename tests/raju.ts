@@ -20,3 +20,7 @@ class Tv_12 {
 
      }
     }
+
+    const r2 = new Tv_12();
+    r2.Gemini()
+    r2.maa_Tv()
