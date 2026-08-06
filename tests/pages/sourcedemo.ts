@@ -1,0 +1,31 @@
+import { Locator, Page } from '@playwright/test';
+
+export class SourceDemoPage {
+  readonly page: Page;
+  readonly usernameInput: Locator;
+  readonly passwordInput: Locator;
+  readonly loginButton: Locator;
+  readonly userDropdown: Locator;
+
+  constructor(page: Page) {
+    this.page = page;
+    this.usernameInput = page.locator('input[name="username"]');
+    this.passwordInput = page.locator('input[name="password"]');
+    this.loginButton = page.locator('button[type="submit"]');
+    this.userDropdown = page.locator('.oxd-userdropdown-name');
+  }
+
+  async goto() {
+    await this.page.goto('https://opensource-demo.orangehrmlive.com/');
+  }
+
+  async login(username: string, password: string) {
+    await this.usernameInput.fill(username);
+    await this.passwordInput.fill(password);
+    await this.loginButton.click();
+  }
+
+  async isLoggedIn() {
+    return this.userDropdown.isVisible();
+  }
+}

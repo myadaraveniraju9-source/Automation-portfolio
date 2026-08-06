@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">Nova Store</div>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-btn">Cart <span id="cart-count">0</span></button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">New season arrivals</p>
+          <h1>Shop smart, style fast.</h1>
+          <p>Discover premium essentials for everyday comfort and confidence.</p>
+          <a href="#products" class="primary-btn">Browse products</a>
+        </div>
+        <div class="hero-card">
+          <h3>Today’s deal</h3>
+          <p>Save 20% on the Aurora backpack.</p>
+        </div>
+      </section>
+
+      <section id="products" class="products-section">
+        <h2>Featured products</h2>
+        <div class="product-grid">
+          <article class="card">
+            <h3>Aurora Backpack</h3>
+            <p>Durable and lightweight for work or travel.</p>
+            <div class="card-footer">
+              <span>$89</span>
+              <button class="add-btn" data-name="Aurora Backpack" data-price="89">Add to cart</button>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Glow Lamp</h3>
+            <p>Minimal ambient lighting for modern spaces.</p>
+            <div class="card-footer">
+              <span>$45</span>
+              <button class="add-btn" data-name="Glow Lamp" data-price="45">Add to cart</button>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Eco Bottle</h3>
+            <p>Insulated bottle built for daily hydration.</p>
+            <div class="card-footer">
+              <span>$32</span>
+              <button class="add-btn" data-name="Eco Bottle" data-price="32">Add to cart</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cart-section" id="about">
+        <h2>Your cart</h2>
+        <ul id="cart-items"></ul>
+        <div class="cart-total">Total: $<span id="cart-total">0</span></div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <p>Nova Store © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
